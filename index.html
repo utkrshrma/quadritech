@@ -5,14 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Deploy your websites in less than 60 seconds."
+      content="An online learning platform for all ages groups."
     />
-    <meta property="og:title" content="Moshify... " />
-    <meta property="og:description" content="Moshify... " />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="http://" />
-    <meta property="og:url" content="https://moshified.com" />
-    <title>Moshify - Go Online for Just $9</title>
+    <title>Brown Bear - Search form</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
@@ -27,13 +22,15 @@
   <body>
     <header>
       <nav class="nav collapsible">
-        <a class="nav__brand" href="/"><img src="images/logo.svg" alt="" /></a>
+        <a class="nav__brand" href="/"> Quadritech</a>
         <svg class="icon icon--white nav__toggler">
-          <use href="images/sprite.svg#menu"></use>
+          <use href="images/svgs/sprite.svg#menu"></use>
         </svg>
         <ul class="list nav__list collapsible__content">
-          <li class="nav__item"><a href="#">Login</a></li>
-          <li class="nav__item"><a href="#">Sign Up</a></li>
+          <li class="nav__item">
+            <a href="https://brownbeeerlogin.netlify.app">Login</a>
+            <a href="https://brownbeeerregister.netlify.app">Register</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -41,142 +38,101 @@
       <div class="container grid grid--1x2">
         <header class="block__header hero__content">
           <h1 data-aos="fade-right" class="block__heading">
-            Look for local street vendor nearby
+            Educating the future..
           </h1>
-          <p class="hero__tagline">Let us make your life simpler</p>
-          <a href="" class="btn btn--accent btn--stretched">Get Started</a>
+          <p class="hero__tagline">A Learning like no other.</p>
+          <a
+            href="https://brownbeeer.netlify.app"
+            target=""
+            class="btn btn--accent btn--stretched"
+            >Get Started</a
+          >
         </header>
-        <picture data-aos="zoom-in">
-          <img class="hero__image" src="images/Street Food.svg" alt="" />
+        <picture class="hero__image-container" data-aos="zoom-in">
+          <img class="hero__image" src="images/svgs/Street Food.svg" alt="" />
         </picture>
-      </div>
-    </section>
-    <section data-aos="fade-up" class="block container block-domain">
-      <header class="block__header">
-        <h2>Search popular street food nearby..</h2>
-        <p>Enter city name and vote for your fav dish..</p>
-      </header>
-      <div class="input-group">
-        <input
-          type="text"
-          class="input"
-          placeholder="Enter city name here..."
-        />
-        <button class="btn btn--accent">
-          <svg class="icon icon--white">
-            <use href="images/sprite.svg#search"></use></svg
-          >Search
-        </button>
       </div>
     </section>
 
     <section class="block container">
       <header class="block__header">
         <h2>No more confusion...</h2>
-        <p>Explore a whole new world around you</p>
+        <p>Explore a whole new world of Computer Science</p>
       </header>
       <article class="grid grid--1x2 feature">
         <div class="feature__content" data-aos="fade-right">
           <span class="icon-container">
             <svg class="icon icon--primary">
-              <use href="images/sprite.svg#easy"></use>
+              <use href="images/svgs/sprite.svg#easy"></use>
             </svg>
           </span>
-          <h3 class="feature__heading">Super Easy to Use</h3>
+          <h3 class="feature__heading">Experience while learning</h3>
           <p>
-            We care about our users. Everything you need is right in front of
-            your eyes.
+            We care about our students. We are providing you first-hand
+            expierence on professional professional projects.
           </p>
           <a href="#" class="link-arrow">Learn More</a>
         </div>
         <picture data-aos="zoom-in-left">
           <source
             type="image/webp"
-            srcset="images/easy.webp 1x, images/easy@2x.webp 2x"
+            srcset="images/gen/easy.webp 1x, images/gen/easy@2x.webp 2x"
           />
           <source
             type="image/jpg"
-            srcset="images/easy.jpg 1x, images/easy@2x.jpg 2x"
+            srcset="images/gen/easy.jpg 1x, images/gen/easy@2x.jpg 2x"
           />
-          <img class="feature__image" src="images/easy@2x.jpg" alt="" />
+          <img class="feature__image" src="images/gen/easy@2x.jpg" alt="" />
         </picture>
       </article>
       <article class="grid grid--1x2 feature">
         <div class="feature__content">
           <span class="icon-container">
             <svg class="icon icon--primary">
-              <use href="images/sprite.svg#computer"></use>
+              <use href="images/svgs/sprite.svg#computer"></use>
             </svg>
           </span>
-          <h3 class="feature__heading">Blazingly Fast</h3>
+          <h3 class="feature__heading">Learn the fundamentals</h3>
           <p>
-            No one likes to wait for several seconds just to get a bit of info.
+            Stand out from everybody else. Learn the core of computer science.
           </p>
           <a href="#" class="link-arrow">Learn More</a>
         </div>
         <picture>
           <source
-            type="image/webp"
-            srcset="images/fast.webp 1x, images/fast@2x.webp 2x"
+            type="image/gen/webp"
+            srcset="images/gen/fast.webp 1x, images/gen/fast@2x.webp 2x"
           />
           <source
             type="image/jpg"
-            srcset="images/fast.jpg 1x, images/fast@2x.jpg 2x"
+            srcset="images/gen/fast.jpg 1x, images/gen/fast@2x.jpg 2x"
           />
-          <img class="feature__image" src="images/fast@2x.jpg" alt="" />
-        </picture>
-      </article>
-      <article class="grid grid--1x2 feature">
-        <div class="feature__content">
-          <span class="icon-container">
-            <svg class="icon icon--primary">
-              <use href="images/sprite.svg#wordpress"></use>
-            </svg>
-          </span>
-          <h3 class="feature__heading">Life Made Easy</h3>
-          <p>Explore your hidden chef and let other know your recipe.</p>
-          <a href="#" class="link-arrow">Learn More</a>
-        </div>
-
-        <picture>
-          <source
-            type="image/webp"
-            srcset="images/support.webp 1x, images/support@2x.webp 2x"
-          />
-          <source
-            type="image/jpg"
-            srcset="images/support.jpg 1x, images/support@2x.jpg 2x"
-          />
-          <img class="feature__image" src="images/support@2x.jpg" alt="" />
+          <img class="feature__image" src="images/gen/fast@2x.jpg" alt="" />
         </picture>
       </article>
     </section>
+
     <section class="block block--dark block--skewed-right block-showcase">
       <header class="block__header">
         <h2>Aesthetic Exprience</h2>
       </header>
       <div class="container grid grid--1x2">
         <picture data-aos="fade-right" class="block-showcase__image">
-          <source
-            type="image/webp"
-            srcset="images/ipad.webp 1x, images/ipad@2x.webp 2x"
+          <img
+            src="./images/testimonials/Screenshot (135).png"
+            alt="aesthtic UI of the application"
           />
-          <source
-            type="image/png"
-            srcset="images/ipad.png 1x, images/ipad@2x.png 2x"
-          />
-          <img src="images/ipad.png" alt="" />
         </picture>
         <ul class="list" data-aos="fade-up">
           <li>
             <div class="media">
               <div class="media__image">
                 <svg class="icon icon--primary">
-                  <use href="images/sprite.svg#snap"></use>
+                  <use href="images/svgs/sprite.svg#snap"></use>
                 </svg>
               </div>
               <div class="media__body">
-                <h3 class="media__title">Easy Start & Managed Updates</h3>
+                <h3 class="media__title">Beautiful and aesthetic UI</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Veniam quisquam, ex nostrum vero voluptates dicta excepturi
@@ -189,28 +145,11 @@
             <div class="media">
               <div class="media__image">
                 <svg class="icon icon--primary">
-                  <use href="images/sprite.svg#growth"></use>
+                  <use href="images/svgs/sprite.svg#growth"></use>
                 </svg>
               </div>
               <div class="media__body">
-                <h3 class="media__title">Staging, GIT & WP-CLI</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Veniam quisquam, ex nostrum vero voluptates dicta excepturi
-                  vel perspiciatis consequuntur ab.
-                </p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="media">
-              <div class="media__image">
-                <svg class="icon icon--primary">
-                  <use href="images/sprite.svg#wordpress"></use>
-                </svg>
-              </div>
-              <div class="media__body">
-                <h3 class="media__title">Dynamic Caching & More</h3>
+                <h3 class="media__title">Seamless Experience</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Veniam quisquam, ex nostrum vero voluptates dicta excepturi
@@ -222,6 +161,7 @@
         </ul>
       </div>
     </section>
+
     <section class="block" data-aos="zoom-in">
       <header class="block__header">
         <h2>What our users are saying?</h2>
@@ -237,12 +177,12 @@
               <div class="grid grid--1x2">
                 <div class="testimonial__image">
                   <img
-                    src="images/testimonial.jpg"
+                    src="images/testimonials/danav.jpg"
                     alt="A happy, smiling customer"
                   />
                   <span class="icon-container icon-container--accent">
                     <svg class="icon icon--white icon--small">
-                      <use href="images/sprite.svg#quotes"></use>
+                      <use href="images/svgs/sprite.svg#quotes"></use>
                     </svg>
                   </span>
                 </div>
@@ -256,11 +196,11 @@
                     <div class="media">
                       <div class="media__image">
                         <svg class="icon icon--primary quote__line">
-                          <use href="images/sprite.svg#line"></use>
+                          <use href="images/svgs/sprite.svg#line"></use>
                         </svg>
                       </div>
                       <div class="media__body">
-                        <h3 class="media__title quote__author">Danav</h3>
+                        <h3 class="media__title quote__author">Dnv</h3>
                         <p class="quote__organization">ABC Company</p>
                       </div>
                     </div>
@@ -269,7 +209,6 @@
               </div>
             </div>
           </div>
-          <div class="text">Caption Text</div>
         </div>
 
         <div class="mySlides fade">
@@ -279,12 +218,12 @@
               <div class="grid grid--1x2">
                 <div class="testimonial__image">
                   <img
-                    src="images/testimonial.jpg"
+                    src="images/testimonials/dikvijay.jpg"
                     alt="A happy, smiling customer"
                   />
                   <span class="icon-container icon-container--accent">
                     <svg class="icon icon--white icon--small">
-                      <use href="images/sprite.svg#quotes"></use>
+                      <use href="images/svgs/sprite.svg#quotes"></use>
                     </svg>
                   </span>
                 </div>
@@ -298,11 +237,11 @@
                     <div class="media">
                       <div class="media__image">
                         <svg class="icon icon--primary quote__line">
-                          <use href="images/sprite.svg#line"></use>
+                          <use href="images/svgs/sprite.svg#line"></use>
                         </svg>
                       </div>
                       <div class="media__body">
-                        <h3 class="media__title quote__author">Dick</h3>
+                        <h3 class="media__title quote__author">dj</h3>
                         <p class="quote__organization">ABC Company</p>
                       </div>
                     </div>
@@ -311,7 +250,6 @@
               </div>
             </div>
           </div>
-          <div class="text">Caption Two</div>
         </div>
 
         <div class="mySlides fade">
@@ -321,12 +259,12 @@
               <div class="grid grid--1x2">
                 <div class="testimonial__image">
                   <img
-                    src="images/testimonial.jpg"
+                    src="images/testimonials/raajshree.png"
                     alt="A happy, smiling customer"
                   />
                   <span class="icon-container icon-container--accent">
                     <svg class="icon icon--white icon--small">
-                      <use href="images/sprite.svg#quotes"></use>
+                      <use href="images/svgs/sprite.svg#quotes"></use>
                     </svg>
                   </span>
                 </div>
@@ -340,11 +278,11 @@
                     <div class="media">
                       <div class="media__image">
                         <svg class="icon icon--primary quote__line">
-                          <use href="images/sprite.svg#line"></use>
+                          <use href="images/svgs/sprite.svg#line"></use>
                         </svg>
                       </div>
                       <div class="media__body">
-                        <h3 class="media__title quote__author">Shiv</h3>
+                        <h3 class="media__title quote__author">rj</h3>
                         <p class="quote__organization">ABC Company</p>
                       </div>
                     </div>
@@ -353,7 +291,6 @@
               </div>
             </div>
           </div>
-          <div class="text">Caption Three</div>
         </div>
 
         <div class="mySlides fade">
@@ -363,12 +300,12 @@
               <div class="grid grid--1x2">
                 <div class="testimonial__image">
                   <img
-                    src="images/testimonial.jpg"
+                    src="images/testimonials/shiva.webp"
                     alt="A happy, smiling customer"
                   />
                   <span class="icon-container icon-container--accent">
                     <svg class="icon icon--white icon--small">
-                      <use href="images/sprite.svg#quotes"></use>
+                      <use href="images/svgs/sprite.svg#quotes"></use>
                     </svg>
                   </span>
                 </div>
@@ -382,11 +319,13 @@
                     <div class="media">
                       <div class="media__image">
                         <svg class="icon icon--primary quote__line">
-                          <use href="images/sprite.svg#line"></use>
+                          <use href="images/svgs/sprite.svg#line"></use>
                         </svg>
                       </div>
                       <div class="media__body">
-                        <h3 class="media__title quote__author">Rajshree</h3>
+                        <h3 class="media__title quote__author">
+                          Utkarsh Sharma
+                        </h3>
                         <p class="quote__organization">ABC Company</p>
                       </div>
                     </div>
@@ -395,7 +334,6 @@
               </div>
             </div>
           </div>
-          <div class="text">Caption Text</div>
         </div>
 
         <!-- Next and previous buttons -->
@@ -412,46 +350,24 @@
         <span class="dot" onclick="currentSlide(4)"></span>
       </div>
     </section>
-    <div class="container">
-      <div class="callout callout--primary callout-signup">
-        <div class="grid grid--1x2">
-          <div class="callout__content">
-            <h2 class="callout__heading">Ready to Get Started?</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
-              voluptate tempora qui distinctio consequatur aliquid pariatur
-              cupiditate quas cum fugit.
-            </p>
-          </div>
-          <a href="#" class="btn btn--secondary btn--stretched">Get Started</a>
-        </div>
-      </div>
-    </div>
 
     <footer class="block block--dark footer">
       <div class="container grid footer__sections">
         <section class="collapsible footer__section">
           <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Support</h2>
-            <svg class="icon icon--white collapsible__chevron">
-              <use href="images/sprite.svg#chevron"></use>
-            </svg>
-          </div>
-          <div class="collapsible__content">
-            <ul class="list">
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Knowledge Base</a></li>
-              <li><a href="#">FAQ</a></li>
-            </ul>
+            <h2 class="collapsible__heading footer__heading">About us</h2>
+            <h2 class="collapsible__heading footer__heading">Contact</h2>
           </div>
         </section>
 
         <div class="footer__brand">
           <img src="images/logo.svg" alt="" />
-          <p class="footer__copyright">Copyright 2020 Mosh Hamedani</p>
+          <p class="footer__copyright">Copyright© 2021 Utkarsh Sharma</p>
         </div>
       </div>
     </footer>
+
     <script src="js/main.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
